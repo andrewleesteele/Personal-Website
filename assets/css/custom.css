@@ -1,0 +1,9 @@
+#header .logo {
+    height: 4em;
+    width: 4em;
+}
+
+    #header .logo img {
+        border-radius: 100%;
+        width: 100%;
+    }
