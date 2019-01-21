@@ -1,0 +1,33 @@
+baseURL = "https://asteele.me"
+title = "Andrew Steele"
+themesDir = "themes"
+theme = "m10c"
+
+[params]
+  author = "John Doe"
+  description = "Customer Success Engineer [@tray.io][1]"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/andrewleesteele/"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/andrewleesteele"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  primaryColor = "#dad865"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+
+  # Red and black theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  primaryColor = "#ffffff"
+  #  lightColor = "#a2a2a2"
+  #  lightestColor = "#d3d3d3"
+
+  # [1]: https://tray.io
+
