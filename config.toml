@@ -1,33 +1,47 @@
 baseURL = "https://asteele.me"
+languageCode = "en-us"
 title = "Andrew Steele"
-themesDir = "themes"
-theme = "m10c"
+description = "SUP ANDREW IS COOL"
+canonifyURLs = true
+enableEmoji = true
+googleAnalytics = "UA-XXXXXX-1"
+
+theme = "pristine"
 
 [params]
-  author = "John Doe"
-  description = "Customer Success Engineer [@tray.io][1]"
-  [[params.social]]
-    name = "linkedin"
+    portrait = "img/portrait.jpg"
+    job = "Solutions Engineer"
+    company = "tray.io"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All Articles"
+  url = "/all/"
+  weight = 2
+
+
+[[menu.projects]]
+  name = "Pristine - A Hugo Theme"
+  url = "https://github.com/sakibccr/pristine"
+  weight = 1
+
+
+[[params.social]]
+    title = "Email"
+    url = "mailto:andrewleesteele@gmail.com"
+[[params.social]]
+    title = "LinkedIn"
     url = "https://www.linkedin.com/in/andrewleesteele/"
-  [[params.social]]
-    name = "github"
+[[params.social]]
+    title = "Github"
     url = "https://github.com/andrewleesteele"
+[[params.social]]
+    title = "Facebook"
+    url = "https://www.facebook.com/andrewleesteele1"
 
-  # Green theme
-  #[params.style]
-  #  darkestColor = "#315659"
-  #  darkColor = "#253031"
-  #  primaryColor = "#dad865"
-  #  lightColor = "#96a879"
-  #  lightestColor = "#fff"
 
-  # Red and black theme
-  #[params.style]
-  #  darkestColor = "#d35050"
-  #  darkColor = "#212121"
-  #  primaryColor = "#ffffff"
-  #  lightColor = "#a2a2a2"
-  #  lightestColor = "#d3d3d3"
-
-  # [1]: https://tray.io
 
