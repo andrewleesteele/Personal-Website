@@ -1,7 +1,6 @@
 baseURL = "https://asteele.me"
 languageCode = "en-us"
 title = "Andrew Steele"
-description = "SUP ANDREW IS COOL"
 canonifyURLs = true
 enableEmoji = true
 googleAnalytics = "UA-XXXXXX-1"
