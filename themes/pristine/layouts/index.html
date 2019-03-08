@@ -3,7 +3,9 @@
   <div id="main">
     {{ partial "nav.html" . }}
     <h1 class="animated flipInX"><a href="/">{{ .Title }}</a></h1>
-    <p class="animated flipInX">{{ .Site.Params.Job }} @ <a href="https://tray.io">{{ .Site.Params.Company }}</a></p>    
+    <p class="animated flipInX">{{ .Site.Params.Job }} @ <a href="https://tray.io"> {{ .Site.Params.Company }}</a></p>    
+
+    <p class="animated flipInX">More to come soon ... </p>
 
     <div class="talkies">
         {{ .Content }}
